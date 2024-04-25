@@ -1,0 +1,40 @@
+#about{
+    display: flex;
+    height: 150px;
+    }
+    
+    #bio{
+        flex: 3;
+        padding-left: 25px;
+            margin: auto;
+            margin-right: 60px;
+    }
+    
+    #img{
+        flex: 1;
+        order: 1; /* Move the image to the start */
+        margin-left: 58px;
+       padding-left: 50px;
+    
+    }
+    #skills{
+        width: 400px;
+        
+    }    
+    h6{
+        font-style: italic;
+        font-weight: bold;
+    }
+    h3{
+        text-align: center;
+    }
+    
+    #projects{
+        display: flex;
+        text-align: center;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+    
